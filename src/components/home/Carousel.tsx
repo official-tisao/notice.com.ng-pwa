@@ -1,13 +1,7 @@
 import { CarouselData } from "../../data/carousel";
 import OwlItem from "./OwlItem";
-import {Key, useState} from "react";
 
 const Carousel = (data: any, setData: any) => {
-	// const [post, setPost] = useState(CarouselData);
-	// if(data){
-	// 	console.log(data._embedded.post)
-	// 	setPost(data._embedded.post);
-	// }
 	return (
 		<>
 			<section className="section carousel-hero">
